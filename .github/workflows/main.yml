@@ -2,7 +2,7 @@ name: Update Space Shooter Game
 
 on:
   schedule:
-    - cron: '0 0 * * SUN'  # weekly at midnight UTC on Sunday
+    - cron: '0 0 */14 * *'  # bi-weekly at midnight UTC on Sunday
   workflow_dispatch:  # Allow manual trigger
 
 permissions:
